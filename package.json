@@ -1,0 +1,28 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.3",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "express-load": "^1.1.16",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "natives": "^1.1.6",
+    "readline-sync": "^1.4.10",
+    "symbol-sdk": "^0.19.2"
+  }
+}
