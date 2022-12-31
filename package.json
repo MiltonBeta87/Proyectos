@@ -23,6 +23,6 @@
     "gulp-sass": "^4.1.0",
     "natives": "^1.1.6",
     "readline-sync": "^1.4.10",
-    "symbol-sdk": "^0.19.2"
+    "symbol-sdk": "^2.0.3"
   }
 }
